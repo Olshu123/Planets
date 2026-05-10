@@ -1,0 +1,36 @@
+header {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+main {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 100%;
+    text-align: center;
+}
+
+footer {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.cursed {
+    color: red;
+    text-decoration: line-through;
+}
+
+a {
+    color: blue;
+}
+
+a:hover {
+    color: aqua;
+}
+
+a:active {
+    color: chartreuse;
+}
+
+a:visited {
+    color: blueviolet;
+}
