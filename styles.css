@@ -1,5 +1,5 @@
 body {
-    background-image: url("images/background.png");
+    background-image: url("images/background2.png");
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -32,14 +32,12 @@ footer {
     display: flex;
     flex-direction: row;
     justify-items: baseline;
-    align-items: start;
 }
 
 .planet {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    height: auto;
+    justify-content: space-evenly;
     width: 500px;
     background-color: #dddddd;
     border: #444444;
@@ -112,4 +110,46 @@ li:empty {
 #personal {
     background-color: black;
     color: orangered;
+}
+
+#matery {
+    background-image: url(/images/background3.png);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#matery mark {
+    color: black;
+    background-color: black;
+}
+
+#matery p {
+    color: white;
+    text-align: justify;
+    padding: 20;
+    margin: 0px 30px 10px;
+}
+
+#matery i {
+    color:aqua
+}
+
+#matery b {
+    color: lightgreen;
+}
+
+#matery h1 {
+    color: aliceblue;
+    background-color: black;
+    text-align: center;
+}
+
+#matery img {
+    float: left;
+    width: 300px;
+    margin: 20px;
+}
+
+#cursed {
+    color: red;
+    text-decoration: underline;
 }
