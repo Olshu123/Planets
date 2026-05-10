@@ -1,5 +1,6 @@
 body {
     background-image: url("images/background.png");
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 a {color: blue;}
@@ -8,20 +9,17 @@ a:active {color: chartreuse;}
 a:visited {color: blueviolet;}
 
 header {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: white;
     width: auto;
     text-align: center;
 }
 
 main {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     width: 100%;
     text-align: center;    
 }
 
 footer {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
     color: white;
     background-color: #444444;
@@ -30,15 +28,27 @@ footer {
     margin: 5px;
 }
 
+#products {
+    display: flex;
+    flex-direction: row;
+    justify-items: baseline;
+    align-items: start;
+}
+
 .planet {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     height: auto;
-    column-count: 2;
+    width: 500px;
+    background-color: #dddddd;
+    border: #444444;
     padding: 10px;
     margin: 5px;
 }
 
 .photo {
-    width: 300px;
+    width: 480px;
     margin: 10px;
     border-style: dotted;
     border-color: gray;
@@ -46,17 +56,17 @@ footer {
 
 #mercury {
     background-color: orange;
-    border: orangered;
+    border-color: orangered;
     border-style: groove;
 }
 #venus {
     background-color: yellow;
-    border: orange;
+    border-color: orange;
     border-style: groove;
 }
 #earth {
     background-color: lawngreen;
-    border: green;
+    border-color: green;
     border-style: groove;
 }
 #mars {
@@ -64,11 +74,25 @@ footer {
     border: brown;
     border-style: groove;
 }
-
-
-#products {
-    display: grid;
-    column-count: 2;
+#jupiter {
+    background-color: coral;
+    border-color: chocolate;
+    border-style: groove;
+}
+#saturn {
+    background-color: burlywood;
+    border-color: orange;
+    border-style: double;
+}
+#uranus {
+    background-color: aquamarine;
+    border-color: cadetblue;
+    border-style: double;
+}
+#neptune {
+    background-color: dodgerblue;
+    border-color: darkblue;
+    border-style: groove;
 }
 
 #partners {
@@ -85,7 +109,7 @@ li:empty {
     background-color: black;
 }
 
-span {
-    color: #dddddd;
+#personal {
     background-color: black;
+    color: orangered;
 }
